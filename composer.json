@@ -1,0 +1,20 @@
+{
+    "name": "backendtea/un-poly-php72",
+    "description": "Removes the symfony/polyfill-php72 polyfill from your project",
+    "keywords": [
+        "polyfill",
+        "php72",
+        "removal"
+    ],
+    "type": "metapackage",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Gert de Pagter",
+            "email": "BackEndTea@gmail.com"
+        }
+    ],
+    "replace": {
+        "symfony/polyfill-php72": "*"
+    }
+}
